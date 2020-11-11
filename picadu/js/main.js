@@ -19,7 +19,7 @@ const loginSignup = document.querySelector('.register-signin');
 const userElement = document.querySelector('.user');
 const userNameElemen = document.querySelector('.user-name');
 
-
+//methods for change blocks
 const toggleAuthDom=()=>{
   const user = setUsers.user;
   if(user){
@@ -35,7 +35,7 @@ const toggleAuthDom=()=>{
 
 
 }
-
+//arrays with users
 const listUsers = [{
     email: '1@mail.com',
     password: '12345',
@@ -53,7 +53,7 @@ const listUsers = [{
   }
 ]
 
-
+//arrays with user methods
 const setUsers = {
   user: null,
   logIn(email, password, handler) {
